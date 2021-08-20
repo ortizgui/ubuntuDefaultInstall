@@ -55,6 +55,9 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https -y
 sudo apt update -y
 sudo apt install code -y
+echo "---> node.js"
+sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
 echo "---> zsh"
 sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
