@@ -55,6 +55,12 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https -y
 sudo apt update -y
 sudo apt install code -y
+echo "---> Jetbrains Rider"
+sudo snap install rider --classic
+echo "---> Jetbrains IntelliJ"
+sudo snap install intellij-idea-ultimate --classic
+echo "---> Jetbrains Webstorm"
+sudo snap install webstorm --classic
 echo "---> node.js"
 sudo curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
