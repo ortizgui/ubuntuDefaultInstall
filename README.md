@@ -10,6 +10,10 @@ Standard installation on debian. List of programs:
 * AWS SAM
 * Discord
 * Visual Studio Code
+* Jetbrains IntelliJ
+* Jetbrains Rider
+* Jetbrains Webstorm
+* Node.Js 14.x
 * ZSH and Oh My Zsh
 
 Fix `cedilha` (ç) letter on ubuntu for Portuguese (Brazil) language. Thanks to [Daniel Kossmann](https://www.danielkossmann.com/ajeitando-cedilha-errado-ubuntu-linux/).
