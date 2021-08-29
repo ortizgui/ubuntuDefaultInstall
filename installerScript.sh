@@ -66,6 +66,8 @@ echo "---> Jetbrains IntelliJ"
 sudo snap install intellij-idea-ultimate --classic
 echo "---> Jetbrains Webstorm"
 sudo snap install webstorm --classic
+echo "---> Jetbrains PyCharm"
+sudo snap install pycharm-professional --classic
 echo "---> node.js"
 sudo curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
