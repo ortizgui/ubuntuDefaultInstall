@@ -13,6 +13,7 @@ Standard installation on debian. List of programs:
 * Jetbrains IntelliJ
 * Jetbrains Rider
 * Jetbrains Webstorm
+* Jetbrains Pycharm
 * Node.Js 14.x
 * ZSH and Oh My Zsh
 
