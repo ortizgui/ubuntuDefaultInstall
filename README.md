@@ -4,7 +4,7 @@ Standard installation on debian. List of programs:
 * GIT
 * gdebi
 * terminator
-* dotnet SKD 5.0
+* dotnet SKD 6.0
 * Docker
 * AWS CLI
 * AWS SAM
