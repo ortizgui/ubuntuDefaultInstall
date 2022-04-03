@@ -21,6 +21,11 @@ sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update -y&& \
   sudo apt-get install -y dotnet-sdk-6.0
+echo "---> golang"
+curl -O https://storage.googleapis.com/golang/go1.18.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+rm -rf go1.18.linux-amd64.tar.gz
 echo "---> docker"
 sudo apt-get update
 sudo apt-get install \
