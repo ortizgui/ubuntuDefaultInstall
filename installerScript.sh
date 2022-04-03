@@ -1,6 +1,8 @@
 echo "---> Update and Upgrade"
 sudo apt-get update -y
 sudo apt-get upgrade -y
+echo "---> snap"
+sudo apt install snapd
 echo "---> vim"
 sudo apt-get install vim -y
 echo "---> curl"

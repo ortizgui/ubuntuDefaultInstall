@@ -1,4 +1,5 @@
 Standard installation on debian. List of programs:
+* snap
 * VIM
 * CURL
 * GIT
