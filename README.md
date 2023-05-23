@@ -1,11 +1,13 @@
 Standard installation on debian. List of programs:
+* Homebrew
+* Java
 * snap
 * VIM
 * CURL
 * GIT
 * gdebi
 * terminator
-* dotnet SKD 6.0
+* dotnet SKD 7.0
 * Golang 1.18
 * Docker
 * AWS CLI

@@ -13,6 +13,9 @@ echo "---> gdebi"
 sudo apt-get install gdebi -y
 echo "---> brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+echo "---> java"
+brew install openjdk
 echo "---> terminator"
 sudo apt-get install terminator -y
 echo "---> dotnet"
@@ -22,7 +25,7 @@ rm packages-microsoft-prod.deb
 sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update -y&& \
-  sudo apt-get install -y dotnet-sdk-6.0
+  sudo apt-get install -y dotnet-sdk-7.0
 echo "---> golang"
 curl -O https://storage.googleapis.com/golang/go1.18.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.linux-amd64.tar.gz
